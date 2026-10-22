@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js
+node_modules/
+
+# 환경 변수
+.env
+.env.*
+!.env.example
+
+# 런타임 바이너리 및 백업
+backup-*/
+downloads/
+*.exe
+*.msi
+*.dll
+*.zip
+
+# 실행 로그
+*.log
+*.stderr.txt
+
+# 로컬 보안 점검 결과
+activation.json
+rollback.json
+download-verification.json
+compatibility-before-switch.json
+verification-after-switch.json
+processes-*.json
+mapped-processes-*.json
+codex-reload-probes.json
+control-socket-probe.json
